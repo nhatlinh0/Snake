@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="403.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <TextField fx:id="tfPassword" layoutX="17.0" layoutY="158.0" prefHeight="32.0" prefWidth="219.0" promptText="Mật khẩu" />
+      <Label layoutX="80.0" layoutY="71.0" text="Đăng nhập">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfUsername" layoutX="17.0" layoutY="116.0" prefHeight="32.0" prefWidth="219.0" promptText="Tên đăng nhập" />
+      <Button fx:id="btnSubmit" layoutX="89.0" layoutY="206.0" mnemonicParsing="false" onAction="#Submit" text="Đăng nhập" />
+      <ImageView fitHeight="406.0" fitWidth="469.0" layoutX="264.0" pickOnBounds="true">
+         <image>
+            <Image url="@../snakeimg.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
